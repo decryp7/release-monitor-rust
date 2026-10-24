@@ -16,6 +16,9 @@ spotter-core = { path = "crates/spotter-core" }
 spotter-sources = { path = "crates/spotter-sources" }
 spotter-engine = { path = "crates/spotter-engine" }
 spotter-render = { path = "crates/spotter-render" }
+# Downloads and their jobs come from the Paddock shell crates (the `decryp7` registry, .cargo/config.toml).
+paddock-download = { version = "0.1", registry = "decryp7" }
+paddock-jobs = { version = "0.1", registry = "decryp7" }
 croner = { version = "4", default-features = false, features = ["jiff"] }
 jiff = { version = "0.2", default-features = false, features = ["std", "tzdb-bundle-always"] }
 quick-xml = "0.42"
