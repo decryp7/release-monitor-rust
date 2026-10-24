@@ -34,6 +34,9 @@
             "styles": [
               "node_modules/@decryp7/paddock-ui/css/paddock.css",
               "src/styles.scss"
+            ],
+            "polyfills": [
+              "@angular/localize/init"
             ]
           },
           "configurations": {
